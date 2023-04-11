@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800;900&family=Raleway&display=swap");
+
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.barra {
+  background-color: rgb(95, 79, 140);
+}
+
+.jumbotron {
+  background-image: url(./img/FONDOHOME.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+  border-radius: 0;
+  margin-bottom: 0;
+  color: rgb(114, 189, 163);
+}
+
+.textoIndex {
+  color: rgb(240, 234, 236);
+  margin-bottom: 25px;
+}
+
+.container {
+  border: 3px solid rgb(114, 189, 163);
+  width: 35%;
+  margin-left: 50px;
+  margin-top: 120px;
+  padding-bottom: 25px;
+}
+
+.btn-outline-secondary {
+  color: rgb(240, 234, 236);
+  text-decoration: none;
+  padding: 7px 15px;
+  border-radius: 13px;
+  background-color: rgb(114, 189, 163);
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.redes {
+  color: rgb(240, 234, 236);
+  text-align: right;
+  font-size: 35px;
+  letter-spacing: 10px;
+  display: flex;
+  justify-content: end;
+}
+.fa-brands {
+  color: rgb(240, 234, 236);
+  letter-spacing: 10px;
+  margin-right: 8px;
+}
+.fa-spotify {
+  margin-right: 20px;
+}
+
+.footer {
+  background-color: rgb(95, 79, 140);
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textoFooter {
+  margin-left: 15px;
+  color: rgb(240, 234, 236);
+  margin-top: 10px;
+}
+
+/*CONTACTO*/
+
+.jumbotronContacto {
+  background-color: #2d2d2e;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  -ms-flex-align: center;
+  }
+
+.containerContacto {
+  color: rgb(240, 234, 236);
+  background-color: #2d2d2e;
+    margin-left: 15px;
+  padding-top: 50px;
+    width: 35%;
+    margin-left: 50px;
+    
+    
+}
+.textoContacto{
+    margin-top: 60px;
+    
+    
+}
+
+.form-group{
+  color: rgb(240, 234, 236);
+  width: 150%;
+  margin-right: 50px;
+  
+}
+
+.formulario{
+  float: right;
+    margin-right: 80px;
+  padding-left: 180px;
+  margin-top: 60px;
+  
+}
+.form-check-label{
+  color: rgb(240, 234, 236);
+  margin-left: 20px;
+  display: flex;
+ 
+  
+}
+
+.btn-outline-secondary{
+margin-top: 10px;
+
+}
+.form-check-input{
+  
+  accent-color: rgb(114, 189, 163);
+
+}
+
+/*DISCOGRAFIA*/
+
+.jumbotronDiscografia {
+    background-color: #2d2d2e;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+  }
+  .containerDiscografia {
+    color: rgb(240, 234, 236);
+    background-color: #2d2d2e;
+    margin-left: 15px;
+    padding-top: 50px;
+      width: 35%;
+      margin-left: 50px;
+  }
+  .textoDiscografia{
+      margin-top: 60px;
+  }
+
+  /*GALERIA*/
+
+.jumbotronGaleria {
+    background-color: #2d2d2e;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+  }
+  .containerGaleria {
+    color: rgb(240, 234, 236);
+    background-color: #2d2d2e;
+    margin-left: 15px;
+    padding-top: 50px;
+      width: 35%;
+      margin-left: 50px;
+  }
+  .textoGaleria{
+      margin-top: 60px;
+  }
+#demo{
+  width: auto;
+  height: 250;
+  margin-left: 150px;
+  background-color: red;
+  background-position: center;
+  background-size: cover;
+  
+}
+/*ACERCA DE MI*/
+
+.jumbotronAcercademi {
+    background-color: #2d2d2e;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+  }
+  .containerAcercademi {
+    color: rgb(240, 234, 236);
+    background-color: #2d2d2e;
+    margin-left: 15px;
+    padding-top: 50px;
+      width: 35%;
+      margin-left: 50px;
+  }
+  .textoAcercademi{
+      margin-top: 60px;
+  }
+  
+ 
+ 
+@media screen and (max-width:850px){
+  .formulario{
+    margin-right: 125px;
+        
+  }
+  
+}
