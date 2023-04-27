@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800;900&family=Raleway&display=swap");
-
 * {
   font-family: "Raleway", sans-serif;
   box-sizing: border-box;
@@ -53,11 +52,13 @@
   display: flex;
   justify-content: end;
 }
+
 .fa-brands {
   color: rgb(240, 234, 236);
   letter-spacing: 10px;
   margin-right: 8px;
 }
+
 .fa-spotify {
   margin-right: 20px;
 }
@@ -72,14 +73,18 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .textoFooter {
   margin-left: 15px;
   color: rgb(240, 234, 236);
   margin-top: 10px;
 }
 
-/*CONTACTO*/
+.textoIndex::selection {
+  color: rgb(114, 189, 163);
+}
 
+/*CONTACTO*/
 .jumbotronContacto {
   background-color: #2d2d2e;
   background-size: cover;
@@ -88,133 +93,318 @@
   position: relative;
   display: flex;
   -ms-flex-align: center;
-  }
+}
 
 .containerContacto {
   color: rgb(240, 234, 236);
   background-color: #2d2d2e;
-    margin-left: 15px;
+  margin-left: 15px;
   padding-top: 50px;
-    width: 35%;
-    margin-left: 50px;
-    
-    
-}
-.textoContacto{
-    margin-top: 60px;
-    
-    
+  width: 35%;
+  margin-left: 50px;
 }
 
-.form-group{
+.textoEscondido {
+  color: #2d2d2e;
+}
+
+.textoEscondido::selection {
+  color: rgb(114, 189, 163);
+}
+
+.textoContacto {
+  margin-top: 60px;
+}
+
+.form-group {
   color: rgb(240, 234, 236);
   width: 150%;
   margin-right: 50px;
-  
 }
 
-.formulario{
+.formulario {
   float: right;
-    margin-right: 80px;
+  margin-right: 80px;
   padding-left: 180px;
   margin-top: 60px;
-  
 }
-.form-check-label{
+
+.form-check-label {
   color: rgb(240, 234, 236);
   margin-left: 20px;
   display: flex;
- 
-  
 }
 
-.btn-outline-secondary{
-margin-top: 10px;
-
+.btn-outline-secondary {
+  margin-top: 10px;
 }
-.form-check-input{
-  
+
+.form-check-input {
   accent-color: rgb(114, 189, 163);
+}
 
+.textoContacto::selection {
+  color: rgb(114, 189, 163);
 }
 
 /*DISCOGRAFIA*/
-
 .jumbotronDiscografia {
-    background-color: #2d2d2e;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    position: relative;
-  }
-  .containerDiscografia {
-    color: rgb(240, 234, 236);
-    background-color: #2d2d2e;
-    margin-left: 15px;
-    padding-top: 50px;
-      width: 35%;
-      margin-left: 50px;
-  }
-  .textoDiscografia{
-      margin-top: 60px;
-  }
+  background-color: #2d2d2e;
+  background-size: cover;
+  background-position: center;
+  min-height: 25vh;
+  position: relative;
+}
 
-  /*GALERIA*/
+.containerDiscografia {
+  color: rgb(240, 234, 236);
+  background-color: #2d2d2e;
+  margin-left: 15px;
+  padding-top: 50px;
+  width: 35%;
+  margin-left: 50px;
+}
 
+.textoDiscografia::selection {
+  color: rgb(114, 189, 163);
+}
+
+.textoDiscografia {
+  margin-top: 60px;
+}
+
+.freeWachinVideo {
+  padding: 100px;
+}
+
+.discografiaBody {
+  background-color: #2d2d2e;
+}
+
+.disco1 {
+  padding: 80px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+.disco2 {
+  width: 400 px;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+/*GALERIA*/
 .jumbotronGaleria {
-    background-color: #2d2d2e;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    position: relative;
-  }
-  .containerGaleria {
-    color: rgb(240, 234, 236);
-    background-color: #2d2d2e;
-    margin-left: 15px;
-    padding-top: 50px;
-      width: 35%;
-      margin-left: 50px;
-  }
-  .textoGaleria{
-      margin-top: 60px;
-  }
-#demo{
+  background-color: #2d2d2e;
+  background-size: cover;
+  background-position: center;
+  min-height: 50%;
+  position: relative;
+}
+
+.containerGaleria {
+  color: rgb(240, 234, 236);
+  background-color: #2d2d2e;
+  padding-top: 50px;
+  width: 55%;
+  margin-left: 50px;
+  padding-bottom: 25px;
+}
+
+.textoGaleria {
+  margin-top: 60px;
+}
+
+#demo {
   width: auto;
   height: 250;
   margin-left: 150px;
   background-color: red;
   background-position: center;
   background-size: cover;
-  
 }
-/*ACERCA DE MI*/
 
-.jumbotronAcercademi {
-    background-color: #2d2d2e;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    position: relative;
-  }
-  .containerAcercademi {
-    color: rgb(240, 234, 236);
-    background-color: #2d2d2e;
-    margin-left: 15px;
-    padding-top: 50px;
-      width: 35%;
-      margin-left: 50px;
-  }
-  .textoAcercademi{
-      margin-top: 60px;
-  }
-  
- 
- 
-@media screen and (max-width:850px){
-  .formulario{
-    margin-right: 125px;
-        
-  }
-  
+.imagenes {
+  width: 100%;
+  height: auto;
+  background-color: #2d2d2e;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 200px);
+  padding: 20px;
+  grid-gap: 15px;
+  margin-top: 0%;
 }
+
+.img {
+  background-color: rgb(95, 79, 140);
+  border: 2px solid rgb(114, 189, 163);
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+}
+
+.img:hover {
+  transform: scale(1.05);
+  transition: all 0.9s;
+  filter: grayscale(0%);
+}
+
+.img1 {
+  background-image: url(img/2.jpg);
+  border: 2px solid rgb(114, 189, 163);
+}
+
+.img2 {
+  background-image: url(img/3.jpg);
+  border: 2px solid rgb(114, 189, 163);
+}
+
+.img3 {
+  background-image: url(img/4.jpg);
+  border: 2px solid rgb(114, 189, 163);
+}
+
+.img4 {
+  background-image: url(img/5.jpg);
+  border: 2px solid rgb(114, 189, 163);
+}
+
+.img5 {
+  background-image: url(img/2.jpg);
+  border: 2px solid rgb(114, 189, 163);
+}
+
+.img6 {
+  background-image: url(img/3.jpg);
+  border: 2px solid rgb(114, 189, 163);
+}
+
+.img7 {
+  background-image: url(img/4.jpg);
+  border: 2px solid rgb(114, 189, 163);
+}
+
+.img8 {
+  background-image: url(img/5.jpg);
+  border: 2px solid rgb(114, 189, 163);
+}
+
+.videosTexto {
+  background-color: #2d2d2e;
+  color: rgb(240, 234, 236);
+  height: 50px;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+/*ACERCA DE MI*/
+.jumbotronAcercademi {
+  background-color: #2d2d2e;
+  background-size: cover;
+  background-position: center;
+  min-height: 25vh;
+  position: relative;
+}
+
+.containerAcercademi {
+  color: rgb(240, 234, 236);
+  background-color: #2d2d2e;
+  margin-left: 15px;
+  padding-top: 50px;
+  width: 35%;
+  margin-left: 50px;
+}
+
+.textoAcercademi {
+  margin-top: 60px;
+}
+
+#accordion {
+  color: rgb(95, 79, 140);
+  padding: 50px;
+  background-color: #2d2d2e;
+  padding-top: 20px;
+}
+
+.buttonComprar {
+  float: right;
+  color: rgb(240, 234, 236);
+  text-decoration: none;
+  padding: 7px 15px;
+  border-radius: 13px;
+  background-color: rgb(114, 189, 163);
+  text-decoration: none;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+.AcercadeMiBody {
+  background-color: #2d2d2e;
+}
+
+.Clases {
+  color: rgb(240, 234, 236);
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+.mapa {
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 480px) {
+  .imagenes {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 200px);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .imagenes {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 200px);
+  }
+  .img1 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  .img2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .img3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .img4 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+  }
+  .img5 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  .img6 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+  }
+  .img7 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .img8 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .imagenes {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 200px);
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
